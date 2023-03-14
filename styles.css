@@ -1,0 +1,80 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('pics/calendar1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  font-size: 15px;
+  font-weight: bold;
+  color: #333;
+  margin: 5px 0;
+}
+
+input[type="number"],
+select {
+  font-size: 18px;
+  padding: 5px;
+  margin-right: 10px;
+  width: 150px;
+}
+
+button {
+  margin-top: 10px;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+
+table {
+  margin-top: 30px;
+  border-collapse: collapse;
+  background-color: #333;
+  color: #fff;
+
+}
+
+td,
+th {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+th {
+  background-color: #eee;
+  color: #333;
+}
+
+.selected {
+  background-color: red;
+}
+
+.tableCaption {
+  font-size: 26px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #333;
+  text-shadow: 1px 1px 1px #fff(0, 0, 0, 0.5);
+}
